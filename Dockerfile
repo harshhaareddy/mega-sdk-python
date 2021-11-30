@@ -1,5 +1,7 @@
 FROM ubuntu:20.04
 
+MAINTAINER harshhaareddy harshhaa03@gmail.com
+
 ENV DEBIAN_FRONTEND="noninteractive"
 
 RUN apt-get -y update && apt-get -y upgrade && \
