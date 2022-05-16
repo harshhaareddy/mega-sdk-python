@@ -6,8 +6,7 @@ on:
       - master
     tags:
       - v*
-  schedule:
-    - cron: "0 0 * * *"
+  workflow_dispatch:
 
 env:
   IMAGE: ghcr.io/${{ github.repository }}
@@ -35,4 +34,4 @@ jobs:
           file: ./Dockerfile
           push: true
           platforms: linux/amd64
-          tags: ghcr.io/${{ github.repository }}:${{ env.TAG }}
+          tags: ghcr.io/harshhaareddy/mega-sdk-python:latest
