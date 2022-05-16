@@ -13,7 +13,6 @@ gunicorn
 hachoir
 html-telegraph-poster
 js2py
-git+https://github.com/jusidama18/lk21
 lxml
 natsort
 Pillow
